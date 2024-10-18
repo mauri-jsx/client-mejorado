@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.sidebar-container {
+  @apply bg-glass h-[96%] w-[20rem] rounded-3xl ml-6 p-4 border transition-all duration-500 border-solid border-glass relative;
+}
+
+.sidebar {
+  @apply flex  items-center mt-2 p-4 rounded-lg cursor-pointer hover:bg-white transition-all duration-300;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
